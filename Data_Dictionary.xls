@@ -1,0 +1,17 @@
+Column_Name,Data_Type,Description,Business_Relevance
+Order_ID,String,Unique order reference,Identifies orders
+Order_Date,Date,Date of purchase,Helps analyze sales trends
+Customer_ID,String,Customer identification number,Identifies customers
+Customer_Name,String,Name of customer,Helps understand customers
+Age,Numeric,Age of customer,Helps analyze age groups
+Gender,Categorical,Gender of customer,Helps analyze gender distribution
+City,Categorical,Customer city,Helps analyze location-based sales
+Product,Categorical,Purchased product,Identifies popular products
+Category,Categorical,Product category,Helps compare product categories
+Quantity,Integer,Number of items purchased,Measures items sold
+Unit_Price,Float,Price of one item,Helps analyze product pricing
+Total_Sales,Float,Total purchase amount,Measures total revenue
+Duplicate_Order_ID_Flag,Boolean,Identifies records with a repeated Order_ID,Helps investigate order ID quality
+Order_Year,Integer,Year extracted from Order_Date,Supports yearly sales analysis
+Order_Month,String,Month extracted from Order_Date,Supports monthly sales analysis
+Age_Group,Categorical,Customer age category,Supports customer segmentation
